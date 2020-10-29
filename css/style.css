@@ -1,0 +1,98 @@
+body {
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+
+.flag-div {
+  width: 160px;
+  height: 100px;
+  border: solid 2px black;
+  display: inline-block;
+}
+
+.austria {
+  background: linear-gradient(
+    180deg,
+    #ed2939,
+    #ed2939 33.3333%,
+    #ffffff 33.3333%,
+    #ffffff 66.66667%,
+    #ed2939 66.66667%,
+    #ed2939
+  );
+}
+
+.austria:hover {
+  width: 320px;
+  height: 200px;
+}
+
+.belgium {
+  background: linear-gradient(
+    90deg,
+    #000,
+    #000 33.33333%,
+    #fae042 33.33333%,
+    #fae042 66.66667%,
+    #ed2939 66.66667%,
+    #ed2939
+  );
+}
+
+.belgium:hover {
+  width: 320px;
+  height: 200px;
+}
+
+.benin {
+  background: linear-gradient(
+      90deg,
+      #008751,
+      #008751 40%,
+      transparent 0,
+      transparent
+    ),
+    linear-gradient(180deg, #fcd116, #fcd116 50%, #e8112d 0, #e8112d);
+}
+
+.benin:hover {
+  width: 320px;
+  height: 200px;
+}
+
+.buddhism {
+  background: linear-gradient(
+      90deg,
+      purple,
+      purple 16.66667%,
+      yellow 16.66667%,
+      yellow 33.33333%,
+      #ed2939 33.33333%,
+      #ed2939 49.99999%,
+      #e1e1e1 49.99999%,
+      #e1e1e1 66.66666%,
+      orange 66.66666%,
+      orange 83.33333%,
+      transparent 0,
+      transparent
+    ),
+    linear-gradient(
+      180deg,
+      purple,
+      purple 20%,
+      yellow 20%,
+      yellow 40%,
+      #ed2939 40%,
+      #ed2939 60%,
+      #e1e1e1 60%,
+      #e1e1e1 80%,
+      orange 80%,
+      orange
+    );
+}
+
+.buddhism:hover {
+  width: 320px;
+  height: 200px;
+}
